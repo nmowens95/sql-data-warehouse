@@ -1,7 +1,7 @@
 /*
-==========================================
+==========================================================================================================
 Create Database and Schemas
-==========================================
+==========================================================================================================
 
 Script Purpose:
     Terminates session for 'DataWarehouse', and checks if 'DataWarehouse' exists. If it does
@@ -11,6 +11,8 @@ Script Purpose:
 WARNING:
     Running this script will drop the database 'DataWarehouse'. All data will be permanently deleted. 
     Make sure to have proper backups before running script.
+    
+==========================================================================================================
 */
 
 -- Drop and recreate the 'DataWarehouse' database
