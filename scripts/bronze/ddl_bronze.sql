@@ -12,11 +12,11 @@ Script Purpose:
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 
 CREATE TABLE bronze.crm_cust_info (
-	cst INT,
+	cst_id INT,
 	cst_key VARCHAR(50),
 	cst_firstname VARCHAR(50),
 	cst_lastname VARCHAR(50),
-	cst_martial_status VARCHAR(50),
+	cst_marital_status VARCHAR(50),
 	cst_gnder VARCHAR(50),
 	cst_create_date DATE
 );
